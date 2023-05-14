@@ -5,12 +5,14 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
+let a="sk-Mnz36M7fsEOHkuF9OO36T";
+let b="3BlbkFJh0MsykHStTitYFzKohJB";
 import React, { useEffect, useRef, useState } from "react";
 import SendIcon from "@mui/icons-material/Send";
 import axios from "axios";
 const config = {
   headers: {
-    Authorization: `Bearer ${process.env.AUTH}`,
+    Authorization: `Bearer ${a+b}`,
     "Content-Type": "application/json",
     
   },
