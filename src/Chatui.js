@@ -10,9 +10,9 @@ import SendIcon from "@mui/icons-material/Send";
 import axios from "axios";
 const config = {
   headers: {
-    Authorization: `Bearer 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`,
+    Authorization: `Bearer ${process.env.auth}`,
     "Content-Type": "application/json",
-    "OpenAI-Organization": "org-PDyDUrS6EZWQSR8vG28DE2ay",
+    "OpenAI-Organization": process.env.org,
   },
 };
 let msg = [];
