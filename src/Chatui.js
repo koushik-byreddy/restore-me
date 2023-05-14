@@ -17,6 +17,7 @@ const config = {
 };
 let msg = [];
 export default function Chatui(props) {
+  console.log(process.env.AUTH);
   const [chatHistory, setChatHistory] = useState([
     {
       user_message: null,
