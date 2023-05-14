@@ -12,7 +12,7 @@ const config = {
   headers: {
     Authorization: `Bearer ${process.env.auth}`,
     "Content-Type": "application/json",
-    "OpenAI-Organization": process.env.org,
+    
   },
 };
 let msg = [];
