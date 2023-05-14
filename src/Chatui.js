@@ -10,7 +10,7 @@ import SendIcon from "@mui/icons-material/Send";
 import axios from "axios";
 const config = {
   headers: {
-    Authorization: `Bearer ${process.env.auth}`,
+    Authorization: `Bearer ${process.env.AUTH}`,
     "Content-Type": "application/json",
     
   },
